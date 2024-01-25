@@ -36,10 +36,8 @@ next-env.d.ts
 
 #static
 /public
-/styles
 /store
-/pages/_document.js
-/blocks
+/pages
 /myspace
 /tools
 /package-lock.json

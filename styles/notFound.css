@@ -1,0 +1,31 @@
+.cont {
+    height: 200vh;
+    width: 100vw;
+    margin-top: -23rem;
+}
+.cont .sticky {
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    height: 100vh;
+    
+}
+.cont .sticky .el {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+
+}
+.cont .sticky .el .imageContainer {
+    position: relative;
+    width: 25vw;
+    height: 25vh;
+}
+.cont .sticky .el .imageContainer img {
+    object-fit: cover;
+}
