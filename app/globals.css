@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Urbanist;
+}
+:root {
+  --primary: 2, 97, 92;
+  --accent: 232, 5, 50;
+  --secondary: 69, 104, 220;
+  --prim-dark: 12, 4, 38;
+  --background: linear-gradient(to top, rgba(30, 34, 170, 0.4) 5%, rgba(192, 45, 77, 0.265) 20%,rgba(30, 35, 170, 0.031) 70%);
+
+}
+
+.gradient{
+  background: linear-gradient(100deg, rgb(var(--accent)) 0%,rgb(var(--primary)) 100%);
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.20);
+  background-color: rgb(var(--accent));
+  transition: all 1s ease-in-out;
+}
